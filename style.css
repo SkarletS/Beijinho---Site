@@ -1,0 +1,305 @@
+body {
+    font-family: "Sagona";
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container p {
+    color: #603312;
+}
+
+.container-flex {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.navbar {
+    background-color: #64c6c5;
+    color: #fff;
+    display: flex;
+    padding: 15px;
+}
+
+.rodape {
+    background-color: #64c6c5;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    margin-left: 1%;
+    width: 50%;
+    display: flex;
+}
+
+.logo img {
+    margin-right: 15%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin-left: 70%;
+    margin-top: 1.5%;
+}
+
+.inicio {
+    background-image: url('img/inicial.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-top: 1%;
+    padding-bottom: 25%;
+}
+
+.p-inicial {
+    margin-left: 4%;
+    margin-top: 10%;
+    font-size: 400%;
+    color: #fff;
+}
+
+.fundo {
+    background-image: url('img/fundo.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.fundo-sobre {
+    background-image: url('img/fundo-sobre.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-bottom: 10%;
+    padding-top: 1%;
+}
+
+.fundo-sobre h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 7%;
+    font-size: 400%;
+}
+
+.container-flex-sobre {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 5%;
+}
+
+.img-sobre {
+    padding: 3%;
+}
+
+.img-sobre img {
+    border-radius: 20px;
+}
+
+.text-sobre {
+    background-color: #F9F4E8;
+    border-radius: 20px;
+    margin: 3%;
+}
+
+.block {
+    padding: 5%;
+}
+.block h1 {
+    font-size: 150%;
+    color: #64C6C5;
+    margin: 0;
+}
+
+.block h3 {
+    color: #F2909F;
+}
+.block p {
+    color: #603312;
+}
+
+.tables {
+    display: flex;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.table td {
+    border: 1px solid #64c6c5;
+    background-color: #64c6c47c;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px; 
+}
+
+.table th {
+    background-color: #F2909F;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px; 
+}
+
+.text {
+    width: 50%;
+    padding: 1%;
+    text-align: center;
+    color: #603312;
+}
+
+.faixa {
+    display: flex;
+    margin-top: 5%;
+}
+
+.faixa p {
+    color: #603312;
+}
+
+.faixa img {
+    margin-left: 5%;
+}
+
+.img-rodape {
+    width: 10%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+.text-rodape {
+    margin-right: 20%;
+    margin-left: 2%;
+}
+
+.icones-rodape img {
+    margin-top: 10%;
+    margin-left: 13%;
+    margin-bottom: 15%;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#btn-inicio {
+    background-color: #64C6C5;
+    border-radius: 10px;
+    border: solid 0;
+    padding: 1%;
+    font-size: 100%;
+    color: #fff;
+    margin-left: 4%;
+}
+
+#btn-fim {
+    background-color: #F2909F;
+    border-radius: 10px;
+    border: solid 0;
+    padding: 2%;
+    font-size: 100%;
+    color: #fff;
+    margin-top: 4%;
+}
+
+.linha{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.linha p{
+    color: #603312;
+    text-align: center;
+}
+
+.linha img{
+    margin-left: 5%;
+    border-radius: 20px;
+}
+
+.box {
+    background-color: #F9F4E8;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+.form {
+    width: 50%;
+    margin-left: 23%;
+}
+
+.formulario {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f9f9f900;
+    padding: 20px;
+    border-radius: 10px;
+    color: #603312;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 0px solid ;
+    border-bottom: 1px solid #603312;
+    background-color: #60321200;
+    margin-top: 5px;
+}
+
+.enviou {
+    background-color: #F2909F;
+    width: 50%;
+    border-radius: 20px;
+    padding: 2%;
+    color: #fff;
+}
+
+.enviou  h1{
+    margin-bottom: 5%;
+}
+
+#btn-enviou {
+    background-color: #64C6C5;
+    border-radius: 15px;
+    border: solid 0;
+    padding: 2%;
+    font-size: 100%;
+    color: #fff;
+    list-style: none;
+}
+
+.fundo-enviou {
+    background-image: url('img/fundo.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-top: 11%;
+    padding-bottom: 15%;
+}
